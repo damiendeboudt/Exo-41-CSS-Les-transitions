@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing=border box;
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.container div.div1{
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+    transition: all;
+    transition-delay: .5s;
+    transition-duration: 6s;
+    transition-timing-function: ease-in-out;
+}
+div.div1:hover{
+    background-color: lightgray;
+    width: 30rem;
+    height: 30rem;
+}
+.div2{
+    width: 20rem;
+    height: 20rem;
+}
+.div2 {
+    transition: all;
+    color: orange;
+    transition-duration: 4s;
+    transition-timing-function: linear;
+}
+.div2:hover{
+    color: yellow;
+    font-size: 1.5rem;
+}
